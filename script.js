@@ -1,4 +1,6 @@
+{
 // Solution to exercise 1 starts here
+
 let char = 'L';
 
 if (typeof char === 'string') {
@@ -10,8 +12,10 @@ if (typeof char === 'string') {
 } else {
     console.log('Invalid character')
 }
-// Solution to exercise 1 ends here
 
+// Solution to exercise 1 ends here
+}
+{
 // Solution to exercise 2 starts here
 
 let a = 5;
@@ -29,7 +33,8 @@ if (typeof a === 'number' && typeof b === 'number' && typeof c === 'number') {
 }
 
 // Solution to exercise 2 ends here
-
+}
+{
 // Solution to exercise 3 starts here
 
 let points = 94;
@@ -58,29 +63,30 @@ switch (typeof points === 'number') {
 }
 
   // Solution to exercise 3 ends here
-  
+}
+{
 // Solution to exercise 4 starts here
 
-let cha = 'n';
+let a = 'n';
 
-switch (typeof cha === 'string') {
+switch (typeof a === 'string') {
     case false:
         console.log('Invalid character');
         break;
     case true:
-        switch (cha) {
-            case cha = 'c':
-            case cha = 'C':
-            case cha = 'k':
-            case cha = 'K':
+        switch (a) {
+            case a = 'c':
+            case a = 'C':
+            case a = 'k':
+            case a = 'K':
                 console.log('Circle');
                 break;
-            case cha = 'p':
-            case cha = 'P':
-            case cha = 'm':
-            case cha = 'M':
-            case cha = 'n':
-            case cha = 'N':
+            case a = 'p':
+            case a = 'P':
+            case a = 'm':
+            case a = 'M':
+            case a = 'n':
+            case a = 'N':
                 console.log('Square');
                 break;
             default:
@@ -89,32 +95,33 @@ switch (typeof cha === 'string') {
 }
 
 // Solution to exercise 4 ends here
-
+}
+{
 // Solution to exercise 5 starts here
 
-let d = 10;
-let e = 2;
+let a = 10;
+let b = 2;
 let operator = '/';
 
-switch (typeof d === 'number' && typeof e === 'number') {
+switch (typeof a === 'number' && typeof b === 'number') {
     case true:
         switch (operator) {
             case '+':
-                console.log(d + e);
+                console.log(a + b);
                 break;
             case '-':
-                console.log(d - e);
+                console.log(a - b);
                 break;
             case '*':
-                console.log(d * e);
+                console.log(a * b);
                 break;
             case '/':
-                switch (e === 0) {
+                switch (b === 0) {
                     case true:
                         console.log('Dividing by 0');
                         break;
                     case false:
-                        console.log(d / e);
+                        console.log(a / b);
                 }
                 break;
             default:
@@ -126,3 +133,4 @@ switch (typeof d === 'number' && typeof e === 'number') {
 }
 
 // Solution to exercise 5 ends here
+}
