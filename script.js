@@ -61,26 +61,26 @@ switch (typeof points === 'number') {
   
 // Solution to exercise 4 starts here
 
-let a = 'n';
+let cha = 'n';
 
-switch (typeof a === 'string') {
+switch (typeof cha === 'string') {
     case false:
         console.log('Invalid character');
         break;
     case true:
-        switch (a) {
-            case a = 'c':
-            case a = 'C':
-            case a = 'k':
-            case a = 'K':
+        switch (cha) {
+            case cha = 'c':
+            case cha = 'C':
+            case cha = 'k':
+            case cha = 'K':
                 console.log('Circle');
                 break;
-            case a = 'p':
-            case a = 'P':
-            case a = 'm':
-            case a = 'M':
-            case a = 'n':
-            case a = 'N':
+            case cha = 'p':
+            case cha = 'P':
+            case cha = 'm':
+            case cha = 'M':
+            case cha = 'n':
+            case cha = 'N':
                 console.log('Square');
                 break;
             default:
@@ -92,29 +92,29 @@ switch (typeof a === 'string') {
 
 // Solution to exercise 5 starts here
 
-let a = 10;
-let b = 2;
+let d = 10;
+let e = 2;
 let operator = '/';
 
-switch (typeof a === 'number' && typeof b === 'number') {
+switch (typeof d === 'number' && typeof e === 'number') {
     case true:
         switch (operator) {
             case '+':
-                console.log(a + b);
+                console.log(d + e);
                 break;
             case '-':
-                console.log(a - b);
+                console.log(d - e);
                 break;
             case '*':
-                console.log(a * b);
+                console.log(d * e);
                 break;
             case '/':
-                switch (b === 0) {
+                switch (e === 0) {
                     case true:
                         console.log('Dividing by 0');
                         break;
                     case false:
-                        console.log(a / b);
+                        console.log(d / e);
                 }
                 break;
             default:
